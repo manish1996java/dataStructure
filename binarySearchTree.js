@@ -191,7 +191,7 @@ function traverseInOrder(node, list){
 }
 
 function traversePreOrder(node,list){
-    list.push(node);
+    list.push(node.value);
     if(node.left){
         traversePreOrder(node.left,list);
     }
@@ -207,6 +207,6 @@ function traversePostOrder(){
     if(node.right){
         traversePreOrder(node.right,list);
     }
-    list.push(node);
+    list.push(node.value);
     return list;
 }
