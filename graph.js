@@ -35,11 +35,11 @@ class Graph {
 
 
 
-  function Graph2(){
-    this.adjList = new Map();
-  }
+//   function Graph2(){
+//     this.adjList = new Map();
+//   }
 
-  Graph2.prototype.addVertex = function(vertex){
-    if(!this.adjList.has())
+//   Graph2.prototype.addVertex = function(vertex){
+//     if(!this.adjList.has())
     
-  }
+//   }
